@@ -2,6 +2,8 @@
 
 This Python script provides a graphical user interface (GUI) for converting PDF files to JPEG images, extracting text from those images, and combining the extracted text into a single file.
 
+Created to copy paste information from the Strike Eagle workbooks as they're encrypted.
+
 ## Features
 
 1. Convert PDF files to JPEG images
