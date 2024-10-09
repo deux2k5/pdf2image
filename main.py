@@ -19,6 +19,9 @@ def pdf_to_jpeg(pdf_path, output_folder):
         if not os.path.exists(pdf_output_folder):
             os.makedirs(pdf_output_folder)
         
+        """
+        Opens the PDF file specified by `pdf_path`.
+        """
         # Open the PDF
         pdf_document = fitz.open(pdf_path)
         for page_number in range(len(pdf_document)):
