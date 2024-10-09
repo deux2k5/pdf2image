@@ -1,7 +1,7 @@
-.aider
 .src
 .dist
 .venv
 .aider.chat.history.md
 aider.tags.cache.v3
 aider
+.aider*
