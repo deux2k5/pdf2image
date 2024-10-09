@@ -1,549 +1,1266 @@
-## Combined Output: F-15E Academic Workbooks 
+##  F-15E Academic Workbooks: Table of Contents
 
-This document contains a compilation of unclassified text extracted from F-15E student workbooks. 
+**AAM: Aerial Attack Maneuvering**
 
-**Table of Contents**
+- **AAM-10: Low Altitude Air-to-Air Employment**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Formation Considerations
+            - Line Abreast
+            - Trail or Wedge
+        - Employment Considerations
+            - Radar Set-Up
+            - Radar Search Plan
+            - Visual Lookout
+                - Terrain Avoidance
+                - Visual/Formation Position
+                - Turns
+                - Systems Operation
+            - HUD Use
+            - Low Altitude Intercepts
+                - General Considerations
+                - Low-to-High Intercepts
+                - High-to-Low Intercepts
+                - Co-altitude Intercepts
+                - Common Low Altitude Intercept Errors
+                - Conversion Aborts
+                - High/Low Speed Targets
+            - Weapons Selection
+                - AIM-120
+                - AIM-7
+                - AIM-9
+                - Gun
+            - Contingencies
+                - No Radar/Bad Systems
+                - Group Targeting/Sorting
+                - Short Range Radar Contact/Commit
+                - Element Targeted/Threat Reactions
+                - Stern Threat
+                - Other Contingencies
+    - Glossary
 
-- [Combined Output: F-15E Academic Workbooks](#combined-output-f-15e-academic-workbooks)
-  - [AAM-10: Low Altitude Air-to-Air Employment](#aam-10-low-altitude-air-to-air-employment)
-    - [Administrative Information](#administrative-information)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros)
-    - [Student Preparation Requirements](#student-preparation-requirements)
-    - [Text](#text)
-      - [Formation Considerations](#formation-considerations)
-        - [Line Abreast](#line-abreast)
-        - [Trail or Wedge](#trail-or-wedge)
-      - [Employment Considerations](#employment-considerations)
-        - [Radar Set-Up](#radar-set-up)
-        - [Radar Search Plan](#radar-search-plan)
-        - [Visual Lookout](#visual-lookout)
-        - [HUD Use](#hud-use)
-        - [Low Altitude Intercepts](#low-altitude-intercepts)
-          - [General Considerations](#general-considerations)
-          - [Low-to-High Intercepts](#low-to-high-intercepts)
-          - [High-to-Low Intercepts](#high-to-low-intercepts)
-          - [Co-altitude Intercepts](#co-altitude-intercepts)
-          - [Common Low Altitude Intercept Errors](#common-low-altitude-intercept-errors)
-          - [Conversion Aborts](#conversion-aborts)
-          - [High/Low Speed Targets](#highlow-speed-targets)
-        - [Weapons Selection](#weapons-selection)
-          - [AIM-120](#aim-120)
-          - [AIM-7](#aim-7)
-          - [AIM-9](#aim-9)
-          - [Gun](#gun)
-        - [Contingencies](#contingencies)
-          - [No Radar/Bad Systems](#no-radarbad-systems)
-          - [Group Targeting/Sorting](#group-targetingsorting)
-          - [Short Range Radar Contact/Commit](#short-range-radar-contactcommit)
-          - [Element Targeted/Threat Reactions](#element-targetedthreat-reactions)
-          - [Stern Threat](#stern-threat)
-          - [Other Contingencies](#other-contingencies)
-    - [Glossary](#glossary)
-  - [AAM-1: Performance Management](#aam-1-performance-management)
-    - [Administrative Information](#administrative-information-1)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-1)
-    - [Student Preparation Requirements](#student-preparation-requirements-1)
-    - [Text](#text-1)
-      - [Basic Aerodynamics](#basic-aerodynamics)
-        - [Lift](#lift)
-        - [Weight](#weight)
-        - [Drag](#drag)
-        - [Stability](#stability)
-          - [Longitudinal Stability](#longitudinal-stability)
-          - [Lateral Stability](#lateral-stability)
-          - [Directional Stability](#directional-stability)
-      - [Turn Performance](#turn-performance)
-        - [Definitions](#definitions)
-        - [Limits to Turn Performance](#limits-to-turn-performance)
-          - [Amount of Lift Obtainable](#amount-of-lift-obtainable)
-          - [Amount of G Permissible](#amount-of-g-permissible)
-          - [Amount of Thrust Available](#amount-of-thrust-available)
-        - [Turn Performance Measurements](#turn-performance-measurements)
-          - [Turn Rate](#turn-rate)
-          - [Turn Radius](#turn-radius)
-        - [Performance Management](#performance-management-1)
-      - [Energy Maneuverability](#energy-maneuverability)
-        - [Introduction](#introduction)
-        - [Wing Loading](#wing-loading)
-        - [Thrust-to-Weight Ratio](#thrust-to-weight-ratio)
-        - [Specific Power (P<sub>s</sub>)](#specific-power-ps)
-        - [Energy Maneuverability (EM) Diagram](#energy-maneuverability-em-diagram)
-        - [Comparing P<sub>s</sub>](#comparing-ps)
-    - [End of Text Quiz](#end-of-text-quiz)
-    - [Glossary](#glossary-1)
-  - [AAM-2: Intercepts](#aam-2-intercepts)
-    - [Administrative Information](#administrative-information-2)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-2)
-    - [Student Preparation Requirements](#student-preparation-requirements-2)
-    - [Text](#text-2)
-      - [Definitions/Terms](#definitionsterms)
-        - [Intercept](#intercept)
-        - [Heading Crossing Angle (HCA)](#heading-crossing-angle-hca)
-        - [Aspect Angle (AA)](#aspect-angle-aa)
-        - [Antenna Train Angle (ATA)](#antenna-train-angle-ata)
-        - [Collision Antenna Train Angle (CATA)](#collision-antenna-train-angle-cata)
-        - [HOT/COLD](#hotcold)
-        - [Target Drift](#target-drift)
-        - [Pursuit Types](#pursuit-types)
-          - [Pure Pursuit](#pure-pursuit)
-          - [Lead Pursuit](#lead-pursuit)
-          - [Lag Pursuit](#lag-pursuit)
-        - [Closure](#closure)
-      - [Medium Altitude Intercepts](#medium-altitude-intercepts)
-        - [Intercept Types](#intercept-types)
-        - [Approach Quadrants](#approach-quadrants)
-        - [Cut-off/Collision Course Intercept](#cut-offcollision-course-intercept)
-        - [Stern Conversions](#stern-conversions)
-          - [Horizontal](#horizontal)
-            - [Head-on Horizontal Intercept](#head-on-horizontal-intercept)
-            - [Front Quarter Horizontal Intercept](#front-quarter-horizontal-intercept)
-            - [Beam Horizontal Intercept](#beam-horizontal-intercept)
-            - [Stern Horizontal Intercept](#stern-horizontal-intercept)
-          - [Conversion Pursuit Guide](#conversion-pursuit-guide)
-          - [Pure Pursuit Conversion Turn](#pure-pursuit-conversion-turn)
-          - [Combination](#combination)
-            - [Head-on Combination Intercept](#head-on-combination-intercept)
-            - [Front Quarter Combination Intercept](#front-quarter-combination-intercept)
-            - [Beam / Stern Combination Intercept](#beam--stern-combination-intercept)
-          - [Vertical](#vertical-1)
-            - [Head-on Vertical Intercept](#head-on-vertical-intercept)
-        - [Medium Altitude Intercept Summary](#medium-altitude-intercept-summary)
-      - [Intercept Steps, Flow, and Adjustments](#intercept-steps-flow-and-adjustments)
-        - [Radar Setup/Search](#radar-setupsearch)
-        - [Find Target/Lock On](#find-targetlock-on)
-        - [BRA(A) Call](#braa-call)
-        - [Develop Three-Dimensional View](#develop-three-dimensional-view)
-        - [Determine Intercept Geometry](#determine-intercept-geometry)
-        - [Maneuver to Make Adjustments to Intercept](#maneuver-to-make-adjustments-to-intercept)
-          - [Turning Room](#turning-room)
-          - [Pure Pursuit](#pure-pursuit-1)
-          - [Airspeed](#airspeed-1)
-          - [Fast Target](#fast-target)
-          - [Slow Target](#slow-target)
-          - [Vc Control](#vc-control)
-        - [Typical Intercept](#typical-intercept)
-          - [Detection](#detection)
-          - [Sample](#sample-1)
-          - [Targeting](#targeting-1)
-          - [Sanitize](#sanitize)
-          - [Sorting](#sorting-1)
-          - [Intercept Geometry](#intercept-geometry-1)
-          - [Intercept Results](#intercept-results)
-          - [Separate](#separate)
-      - [High Altitude Intercepts](#high-altitude-intercepts)
-      - [Low Altitude Intercepts](#low-altitude-intercepts)
-      - [Crew Coordination](#crew-coordination)
-        - [Radar](#radar-1)
-        - [Commentary](#commentary)
-          - [Intercockpit](#intercockpit)
-          - [Intraflight](#intraflight)
-          - [GCI/AWACS](#gciawacs)
-        - [Visual Lookout](#visual-lookout-1)
-    - [End of Text Quiz](#end-of-text-quiz-1)
-    - [Glossary](#glossary-2)
-  - [AAM-3: A/A Mission Tasks](#aam-3-aa-mission-tasks)
-    - [Administrative Information](#administrative-information-3)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-3)
-    - [Student Preparation Requirements](#student-preparation-requirements-3)
-    - [Text](#text-3)
-      - [A/A Environment](#aa-environment)
-        - [Preparation](#preparation)
-          - [Physiological Preparation](#physiological-preparation)
-            - [Physical](#physical-1)
-            - [Psychological](#psychological-1)
-            - [Pathological](#pathological)
-          - [Systems Knowledge](#systems-knowledge)
-          - [Crew Coordination](#crew-coordination-1)
-        - [Flight Tasks](#flight-tasks)
-          - [Beyond Visual Range Task](#beyond-visual-range-task)
-          - [BVR to Tally](#bvr-to-tally)
-          - [Merge](#merge-1)
-          - [Postmerge](#postmerge)
-        - [Low Altitude Environment](#low-altitude-environment)
-          - [Low-to-High Conversions](#low-to-high-conversions)
-          - [High-to-Low Conversions](#high-to-low-conversions)
-          - [Co-Altitude Intercepts](#co-altitude-intercepts)
-          - [Conversion Aborts](#conversion-aborts-1)
-      - [Trail Departure](#trail-departure)
-        - [Purpose](#purpose)
-        - [Before Takeoff](#before-takeoff)
-        - [Takeoff](#takeoff-1)
-        - [Maintaining Trail](#maintaining-trail)
-        - [Loss of Radar Contact](#loss-of-radar-contact)
-      - [Air Refueling](#air-refueling)
-        - [Mission Preparation](#mission-preparation)
-        - [Ground Operations](#ground-operations-1)
-        - [En Route](#en-route)
-        - [Rendezvous Geometry](#rendezvous-geometry)
-          - [Point Parallel](#point-parallel)
-          - [Rendezvous Overrun](#rendezvous-overrun)
-          - [Prerefueling Checks](#prerefueling-checks)
-        - [Postair Refueling](#postair-refueling)
-        - [After Landing](#after-landing)
-    - [End of Text Quiz](#end-of-text-quiz-2)
-    - [Glossary](#glossary-3)
-  - [AAM-4: Ground Controlled Intercepts (GCI)](#aam-4-ground-controlled-intercepts-gci)
-    - [Administrative Information](#administrative-information-4)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-4)
-    - [Student Preparation Requirements](#student-preparation-requirements-4)
-    - [Text](#text-4)
-      - [GCI/AWACS Capabilities and Limitations](#gciawacs-capabilities-and-limitations)
-        - [GCI=s Mission](#gcis-mission)
-        - [GCI Procedures](#gci-procedures)
-        - [GCI/AWACS Comparison](#gciawacs-comparison)
-          - [Manual Radars](#manual-radars)
-          - [Automated Radars (SOCC/ROCC)](#automated-radars-soccrocc)
-          - [AWACS](#awacs-1)
-      - [Aircrew/Weapons Director Responsibilities](#aircrewweapons-director-responsibilities)
-        - [Continuum of Control](#continuum-of-control)
-        - [Close Control](#close-control-1)
-        - [Tactical Control](#tactical-control)
-        - [Broadcast Control](#broadcast-control)
-        - [Advisory Control](#advisory-control)
-        - [Autonomous Control](#autonomous-control-1)
-        - [Control Considerations](#control-considerations)
-      - [Operational Brevity Code](#operational-brevity-code)
-      - [Air-to-Air Training Rules](#air-to-air-training-rules)
-        - [Brief and Debrief Requirements](#brief-and-debrief-requirements)
-        - [Airspace](#airspace)
-        - [Training Responsibilities](#training-responsibilities)
-        - [Training Rules](#training-rules-1)
-          - [Separation of Aircraft](#separation-of-aircraft)
-          - [Terminate Versus Knock-it-off](#terminate-versus-knock-it-off)
-      - [Maneuvering Categories](#maneuvering-categories)
-        - [Unlimited](#unlimited)
-        - [Limited](#limited-1)
-        - [Restricted](#restricted)
-        - [Nonmaneuvering](#nonmaneuvering)
-    - [End of Text Quiz](#end-of-text-quiz-3)
-    - [Glossary](#glossary-4)
-    - [Appendix G](#appendix-g)
-  - [AAM-5: Offensive Basic Fighter Maneuvers (OBFM)](#aam-5-offensive-basic-fighter-maneuvers-obfm)
-    - [Administrative Information](#administrative-information-5)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-5)
-    - [Student Preparation Requirements](#student-preparation-requirements-5)
-    - [Text](#text-5)
-      - [Introduction](#introduction-1)
-      - [BFM Mechanics and Definitions](#bfm-mechanics-and-definitions)
-        - [Roll](#roll)
-        - [Turn](#turn)
-        - [Acceleration](#acceleration-1)
-        - [Geometry](#geometry-1)
-          - [Positional Geometry](#positional-geometry)
-          - [Attack Geometry](#attack-geometry)
-          - [Weapon Employment Zone (WEZ)](#weapon-employment-zone-wez)
-          - [Turning Room/Turn Circle](#turning-roomturn-circle)
-            - [Turning Room](#turning-room-1)
-            - [Turn Circle](#turn-circle-1)
-          - [Control Zone](#control-zone-1)
-      - [Offensive Maneuvers](#offensive-maneuvers)
-        - [Lead Reposition Maneuver](#lead-reposition-maneuver)
-        - [Lag Reposition Maneuver](#lag-reposition-maneuver)
-        - [Quarter Plane](#quarter-plane)
-      - [Offensive BFM](#offensive-bfm)
-        - [Objectives](#objectives-1)
-        - [Offensive BFM Setups](#offensive-bfm-setups)
-        - [Long Range BFM](#long-range-bfm)
-          - [Lead Pursuit Entry](#lead-pursuit-entry)
-          - [Pure Pursuit Entry](#pure-pursuit-entry)
-          - [Lag Pursuit Entry](#lag-pursuit-entry)
-        - [Short Range BFM](#short-range-bfm)
-        - [Offensive BFM Errors](#offensive-bfm-errors)
-        - [Scissors](#scissors)
-          - [Flat Scissors](#flat-scissors)
-          - [Rolling Scissors](#rolling-scissors)
-        - [Separations](#separations-1)
-        - [Short Range Radar Employment](#short-range-radar-employment)
-    - [End of Text Quiz](#end-of-text-quiz-4)
-    - [Glossary](#glossary-5)
-  - [AAM-6: Defensive Basic Fighter Maneuvers](#aam-6-defensive-basic-fighter-maneuvers)
-    - [Administrative Information](#administrative-information-6)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-6)
-    - [Student Preparation Requirements](#student-preparation-requirements-6)
-    - [Text](#text-6)
-      - [Introduction](#introduction-2)
-      - [BFM Mechanics and Definitions](#bfm-mechanics-and-definitions-1)
-        - [Roll](#roll-1)
-        - [Turn](#turn-1)
-        - [Acceleration](#acceleration-2)
-        - [Geometry](#geometry-2)
-          - [Positional Geometry](#positional-geometry-1)
-          - [Attack Geometry](#attack-geometry-1)
-          - [Weapon Employment Zone (WEZ)](#weapon-employment-zone-wez-1)
-          - [Turning Room/Turn Circle](#turning-roomturn-circle-1)
-            - [Turning Room](#turning-room-2)
-            - [Turn Circle](#turn-circle-2)
-          - [Vertical Turning](#vertical-turning)
-          - [Control Zone](#control-zone-2)
-      - [Defensive BFM](#defensive-bfm)
-        - [Initial Moves](#initial-moves)
-        - [Visual References for Defensive BFM](#visual-references-for-defensive-bfm)
-        - [Analyzing the Fight](#analyzing-the-fight)
-        - [Bandit at 9000 Feet](#bandit-at-9000-feet)
-        - [Bandit at 6000 Feet](#bandit-at-6000-feet)
-          - [Bandit with Insufficient Turn Rate](#bandit-with-insufficient-turn-rate)
-          - [Bandit with Superior Turn Rate](#bandit-with-superior-turn-rate)
-        - [Bandit at 3000 Feet](#bandit-at-3000-feet)
-        - [Transition From the Defensive](#transition-from-the-defensive)
-          - [Overshoots](#overshoots)
-          - [Reversals](#reversals-1)
-        - [Intercockpit Directive Defensive Commentary](#intercockpit-directive-defensive-commentary)
-          - [“Hard Left/Right”](#hard-leftright)
-          - [“Roll Left/Right”](#roll-leftright)
-          - [“Tighten Down”](#tighten-down)
-          - [“Kase Off/Op Turn”](#ease-offop-turn)
-          - [“Break Left/Right/Up”](#break-leftrightup)
-          - [“Reverse Left/Right”](#reverse-leftright)
-          - [“Set Your Wings”](#set-your-wings)
-          - [“Pull”](#pull)
-          - [“Jink”](#jink)
-          - [“Extend”](#extend)
-          - [“Check (Degrees) Left/Right”](#check-degrees-leftright)
-          - [“Pitchback Left/Right”](#pitchback-leftright)
-          - [“Sliceback Left/Right”](#sliceback-leftright)
-          - [“Pitch Left/Right to Slice”](#pitch-leftright-to-slice)
-          - [“Floor”](#floor)
-            - [“Floor Transition”](#floor-transition)
-            - [“Floor Save”](#floor-save)
-            - [‘Floor Fight”](#floor-fight)
-        - [Common DBFM Errors](#common-dbfm-errors)
-      - [Conclusion](#conclusion)
-    - [End of Text Quiz](#end-of-text-quiz-5)
-    - [Glossary](#glossary-6)
-  - [AAM-7: 2 v X Intercepts](#aam-7-2-v-x-intercepts)
-    - [Administrative Information](#administrative-information-7)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-7)
-    - [Student Preparation Requirements](#student-preparation-requirements-7)
-    - [Text](#text-7)
-      - [Mission Planning](#mission-planning)
-        - [Mission Planning Sources](#mission-planning-sources)
-          - [Air Tasking Order (ATO)](#air-tasking-order-ato)
-          - [Airspace Control Order (ACO)/Airspace Control Plan (ACP)](#airspace-control-order-acoairspace-control-plan-acp)
-        - [Mission Planning Considerations](#mission-planning-considerations)
-          - [Weather](#weather-1)
-          - [Terrain](#terrain-1)
-        - [Available Assets](#available-assets)
-        - [Combat Air Patrol (CAP)](#combat-air-patrol-cap)
-        - [Radar Setup](#radar-setup)
-        - [PRE](#pre)
-        - [Scope Range](#scope-range)
-        - [Azimuth Selection](#azimuth-selection)
-        - [Frame Store](#frame-store-1)
-        - [GMTR](#gmtr)
-        - [Acquisition Symbol Placement](#acquisition-symbol-placement)
-        - [Altitude Search Selection](#altitude-search-selection)
-        - [Elevation Coverage — Bar Selection](#elevation-coverage--bar-selection)
-        - [Air Force Mission Support System (AFMSS) and Mission Planning Support System (MPSS)](#air-force-mission-support-system-afmss-and-mission-planning-support-system-mpss)
-          - [Communication Plan](#communication-plan)
-          - [DTM List and Sequence Points](#dtm-list-and-sequence-points)
-          - [IFF Phasing](#iff-phasing)
-          - [Aircrew and HUD Data](#aircrew-and-hud-data)
-          - [Ordnance](#ordnance-1)
-        - [Crew Coordination](#crew-coordination-2)
-          - [Radar](#radar-2)
-          - [Targeting pod](#targeting-pod)
-          - [RWR](#rwr)
-          - [CMD](#cmd-1)
-        - [Visual Lookout](#visual-lookout-2)
-        - [Intercockpit Communication](#intercockpit-communication-1)
-        - [Contingency Planning](#contingency-planning)
-          - [Weather](#weather-2)
-          - [Package Fallout/Late](#package-falloutlate)
-        - [Intercept Geometry/Tactics](#intercept-geometrytactics)
-          - [Launch and Leave](#launch-and-leave)
-          - [Launch and Decide](#launch-and-decide)
-      - [Intercept Basics](#intercept-basics)
-        - [Communication and Picture Building](#communication-and-picture-building)
-        - [Calling the Picture and Labels](#calling-the-picture-and-labels)
-          - [Fundamentals](#fundamentals)
-        - [Intercept Flow](#intercept-flow)
-          - [Search](#search)
-          - [Sample](#sample-2)
-          - [AAT/EID/PID](#aateidpid)
-            - [BANDIT](#bandit)
-            - [Hostile](#hostile)
-            - [Positive Enemy Indications](#positive-enemy-indications)
-              - [Point of origin (POO)](#point-of-origin-poo)
-              - [NCTR](#nctr-1)
-              - [Mode X](#mode-x)
-            - [Lack of Friendly Indication](#lack-of-friendly-indication)
-            - [PAINTS](#paints)
-            - [SPADES](#spades)
-          - [Commit](#commit)
-          - [Aborted Commit](#aborted-commit)
-          - [Sanitize](#sanitize-1)
-          - [Target](#target-2)
-          - [Meld](#meld)
-          - [Lock No Later Than (LNLT)/Sort](#lock-no-later-than-lnltsort)
-          - [Shot](#shot)
-          - [Crank Priorities](#crank-priorities)
-          - [Decision Range](#decision-range)
-          - [Abort Range](#abort-range)
-          - [Shot Depth](#shot-depth-1)
-          - [Split](#split)
-          - [Drop/Monitor](#dropmonitor)
-        - [ALL-ASPECT MISSILE DEFENSE (AAMD)](#all-aspect-missile-defense-aamd)
-          - [Visual Arena](#visual-arena)
-        - [INFRARED MISSILE DEFENSE (IRMD)](#infrared-missile-defense-irmd)
-        - [Merge](#merge-2)
-        - [Egress/Separation](#egressseparation)
-        - [SHORT-RANGE RADAR](#short-range-radar)
-        - [Short-Range Commits](#short-range-commits)
-        - [Defensive Response](#defensive-response)
-        - [Contingencies](#contingencies-1)
-    - [End of Text Quiz](#end-of-text-quiz-6)
-    - [Glossary](#glossary-7)
-  - [AAM-8: High Aspect Basic Fighter Maneuvers](#aam-8-high-aspect-basic-fighter-maneuvers)
-    - [Administrative Information](#administrative-information-8)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-8)
-    - [Student Preparation Requirements](#student-preparation-requirements-8)
-    - [Text](#text-8)
-      - [Introduction](#introduction-3)
-      - [BFM Mechanics and Definitions](#bfm-mechanics-and-definitions-2)
-      - [Turning Room](#turning-room-3)
-      - [Lead Turn](#lead-turn)
-      - [Common Errors in Performing Lead Turns](#common-errors-in-performing-lead-turns)
-      - [High Aspect BFM](#high-aspect-bfm)
-        - [Initial Moves](#initial-moves-1)
-          - [Extend and Comeback](#extend-and-comeback)
-          - [Hard Turn at the Pass](#hard-turn-at-the-pass)
-          - [Vertical Fight](#vertical-fight)
-        - [Two-Circle and One-Circle Fights](#two-circle-and-one-circle-fights)
-          - [Two-Circle Fight](#two-circle-fight)
-          - [One-Circle Fight](#one-circle-fight)
-        - [High Aspect BFM Considerations](#high-aspect-bfm-considerations)
-          - [High Speed/Poor Turning Bandit](#high-speedpoor-turning-bandit)
-          - [Slow Speed/Good Turning Bandit](#slow-speedgood-turning-bandit)
-          - [Good Turn Rate and Radius Bandit](#good-turn-rate-and-radius-bandit)
-      - [Conclusion](#conclusion-1)
-    - [End of Text Quiz](#end-of-text-quiz-7)
-    - [Glossary](#glossary-8)
-  - [AAM-9: Air Combat Maneuvering (ACM)](#aam-9-air-combat-maneuvering-acm)
-    - [Administrative Information](#administrative-information-9)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-9)
-    - [Student Preparation Requirements](#student-preparation-requirements-9)
-    - [Text](#text-9)
-      - [ACM](#acm)
-      - [Fighter Roles and Responsibilities](#fighter-roles-and-responsibilities)
-        - [Engaged Fighter Versus Engaged](#engaged-fighter-versus-engaged)
-        - [Engaged and Support Roles](#engaged-and-support-roles)
-          - [Engaged Fighter Responsibilities](#engaged-fighter-responsibilities)
-          - [Support Fighter Responsibilities](#support-fighter-responsibilities)
-        - [Deconfliction](#deconfliction-1)
-        - [Role Establishment](#role-establishment)
-          - [Engaged](#engaged-1)
-            - [Defensive](#defensive-1)
-            - [Offensive](#offensive-1)
-          - [Flight Lead](#flight-lead)
-          - [Support](#support)
-        - [Role Exchange](#role-exchange)
-          - [Engaged Fighter is Offensive/Neutral](#engaged-fighter-is-offensiveneutral)
-          - [Support Fighter Becomes Defensive](#support-fighter-becomes-defensive)
-      - [ACM Communications](#acm-communications)
-        - [Format](#format-1)
-        - [Communication Categories](#communication-categories)
-          - [Directive Commentary](#directive-commentary)
-          - [Descriptive Commentary](#descriptive-commentary)
-          - [Informative/Situational Awareness Building Communication](#informativesituational-awareness-building-communication)
-          - [Plain English](#plain-english)
-          - [Engaged Communication Format](#engaged-communication-format)
-        - [Merge Communication](#merge-communication)
-          - [Brevity Definitions](#brevity-definitions)
-        - [Basic Rules for Good Flight Communication](#basic-rules-for-good-flight-communication)
-      - [Weapons Deconfliction](#weapons-deconfliction-1)
-      - [Offensive ACM](#offensive-acm)
-        - [Formations](#formations)
-        - [2 v 1 Intercepts](#2-v-1-intercepts)
-          - [Single-Side Offset (SSO)](#single-side-offset-sso)
-          - [Bracket](#bracket-1)
-          - [Separation](#separation-2)
-        - [Postmerge Maneuvering](#postmerge-maneuvering)
-          - [Reentering the Fight as the Support Fighter](#reentering-the-fight-as-the-support-fighter)
-            - [Support Fighter Position](#support-fighter-position)
-            - [Support Fighter Reentries](#support-fighter-reentries)
-              - [Co-Flow Entry](#co-flow-entry)
-              - [Counter-Flow Entry](#counter-flow-entry)
-          - [Slow Speed Fight Entry](#slow-speed-fight-entry)
-          - [Areas to Avoid](#areas-to-avoid)
-          - [Entering From Above the Fight](#entering-from-above-the-fight)
-          - [Reentry Exercises](#reentry-exercises)
-        - [High Aspect ACM Setups](#high-aspect-acm-setups)
-          - [High Aspect, Bracket, Turn Into, No Switch](#high-aspect-bracket-turn-into-no-switch)
-          - [High Aspect Bracket, Turn Into, Switch](#high-aspect-bracket-turn-into-switch)
-          - [High Aspect, Offset, Turn Into, No Switch](#high-aspect-offset-turn-into-no-switch)
-          - [High Aspect, Offset, Turn Into, Switch](#high-aspect-offset-turn-into-switch)
-          - [Engaging Other Threats](#engaging-other-threats)
-          - [Separation/Bugout](#separationbugout)
-      - [Defensive ACM](#defensive-acm)
-        - [Visual Lookout Responsibilities and Range Estimation](#visual-lookout-responsibilities-and-range-estimation)
-        - [Bandit Attack Options](#bandit-attack-options)
-          - [No Switch](#no-switch)
-          - [Early Switch](#early-switch)
-          - [Late Switch](#late-switch)
-          - [Uncommitted Bandit](#uncommitted-bandit)
-    - [End of Text Quiz](#end-of-text-quiz-8)
-    - [Glossary](#glossary-9)
-  - [AAW-1: A/A Programmable Armament Control Set (PACS)](#aaw-1-aa-programmable-armament-control-set-pacs)
-    - [Administrative Information](#administrative-information-10)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-10)
-    - [Student Preparation Requirements](#student-preparation-requirements-10)
-    - [Text](#text-10)
-      - [Introduction](#introduction-4)
-      - [PACS Display](#pacs-display)
-        - [Top Level PACS Menu](#top-level-pacs-menu)
-      - [MC/DTM](#mcdtm)
-      - [MPCD Color Coding](#mpcd-color-coding)
-      - [Weapons Controls](#weapons-controls)
-        - [Master Modes](#master-modes)
-        - [Armament Control Panel](#armament-control-panel)
-          - [Selective Jettison Knob/Button](#selective-jettison-knobbutton)
-          - [Master Arm Switch](#master-arm-switch)
-        - [Emergency Jettison Button](#emergency-jettison-button)
-        - [Weapons Select Switch](#weapons-select-switch)
-        - [Weapons Release (Pickle) Button](#weapons-release-pickle-button)
-        - [Trigger](#trigger-1)
-        - [Armament Safety Switch](#armament-safety-switch)
-        - [Nuclear Consent Switch](#nuclear-consent-switch)
-      - [A/A PACS](#aa-pacs)
-      - [A/A Weapons Load Verification](#aa-weapons-load-verification)
-      - [A/A Training Weapons Load Programming](#aa-training-weapons-load-programming)
-      - [A/A Combat Weapon Load Monitoring](#aa-combat-weapon-load-monitoring)
-      - [A/A Weapons Control Options](#aa-weapons-control-options)
-        - [AIM-9L/M Legends](#aim-9lm-legends)
-        - [AIM-7/AIM-120 Legends](#aim-7aim-120-legends)
-      - [A/A Missile Stores Limitations](#aa-missile-stores-limitations)
-      - [A/A Jettison Procedures](#aa-jettison-procedures)
-        - [Emergency Jettison](#emergency-jettison-1)
-        - [Programming Combat Jettison](#programming-combat-jettison)
-        - [A/A Selective Jettison](#aa-selective-jettison)
-      - [System Failures](#system-failures)
-        - [CC Failure](#cc-failure-1)
-        - [PACS Failure](#pacs-failure-1)
-        - [Master Arm Switch Failure](#master-arm-switch-failure)
-    - [Glossary](#glossary-10)
-  - [AAW-2: HUD Air-to-Air Displays](#aaw-2-hud-air-to-air-displays)
-    - [Administrative Information](#administrative-information-11)
-    - [Criterion Referenced Objectives (CROs)](#criterion-referenced-objectives-cros-11)
-    - [Student Preparation Requirements](#student-preparation-requirements-11)
-    - [Text](#text-11)
-      - [HUD Displays - A/A Master Mode](#hud-displays-aa-master-mode)
-        - [A/A Master Mode Selection](#aa-master-mode-selection)
-        - [SNIFF (SNF) and VIS IDENT (VI)](#sniff-snf-and-vis-ident-vi)
-      - [HUD Weapons Displays & Steering](#hud-weapons-displays--steering)
-        - [AIM-7](#aim-7-1)
-        - [AIM-120](#aim-120-1)
-          - [Visual](#visual)
-          - [Radar](#radar-3)
-        - [AIM-9M](#aim-9m)
-          - [Visual (Radar in Search)](#visual-radar-in-search)
-          - [Radar in Track](#radar-in-track)
-          - [Manual Boresight](#manual-boresight)
-        - [GUN - A/A Displays](#gun-aa-displays)
-          - [LCOS Search Funnel](#lcos-search-funnel)
-          - [LCOS Track Funnel](#lcos-track-funnel)
-          - [GDS](#gds)
-          - [GDS Funnel](#gds-funnel)
-      - [System Degrades](#system-degrades)
-        - [CC Failure](#cc-failure-2)
-        - [PACS Failure](#pacs-failure-2)
+- **AAM-1: Performance Management**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Basic Aerodynamics
+            - Lift
+            - Weight
+            - Drag
+            - Stability
+                - Longitudinal Stability
+                - Lateral Stability
+                - Directional Stability
+        - Turn Performance
+            - Definitions
+                - Instantaneous Corner Velocity
+                - Sustained Corner Velocity
+                - Sustained Turn
+                - Structural Limits
+            - Limits to Turn Performance
+                - Amount of Lift Obtainable
+                - Amount of G Permissible
+                - Amount of Thrust Available
+            - Turn Performance Measurements
+                - Turn Rate
+                - Turn Radius
+            - Performance Management
+        - Energy Maneuverability
+            - Introduction
+            - Wing Loading
+            - Thrust-to-Weight Ratio
+            - Specific Power (Ps)
+            - Energy Maneuverability (EM) Diagram
+                - Sustainable Envelope
+                - Best Energy Rate at Max G
+            - Comparing Ps 
+    - End of Text Quiz
+    - Glossary
+
+- **AAM-2: Intercepts**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Definitions/Terms
+            - Intercept
+            - Heading Crossing Angle (HCA)
+            - Aspect Angle (AA)
+            - Antenna Train Angle (ATA)
+            - Collision Antenna Train Angle (CATA)
+            - HOT/COLD
+            - Target Drift
+            - Pursuit Types
+                - Pure Pursuit
+                - Lead Pursuit
+                - Lag Pursuit
+            - Closure
+        - Medium Altitude Intercepts
+            - Intercept Types
+                - Cut-off/Collision Course Intercept
+                - Stern Conversions
+                    - Horizontal
+                        - Head-on Horizontal Intercept
+                        - Front Quarter Horizontal Intercept
+                        - Beam Horizontal Intercept
+                        - Stern Horizontal Intercept
+                    - Conversion Pursuit Guide
+                    - Pure Pursuit Conversion Turn
+                    - Combination
+                        - Head-on Combination Intercept
+                        - Front Quarter Combination Intercept
+                        - Beam / Stern Combination Intercept
+                    - Vertical
+                        - Head-on Vertical Intercept
+            - Medium Altitude Intercept Summary
+        - Intercept Steps, Flow, and Adjustments
+            - Radar Setup/Search
+                - Range
+                - Elevation Scan
+                - Azimuth (AZ)
+                - Acquisition Symbols
+                - Altitude Coverage
+            - Find Target/Lock On
+            - BRA(A) Call
+            - Develop Three-Dimensional View
+            - Determine Intercept Geometry
+            - Maneuver to Make Adjustments to Intercept
+                - Turning Room
+                - Pure Pursuit
+                - Airspeed
+                - Fast Target
+                - Slow Target
+                - Vc Control
+            - Typical Intercept
+                - Detection
+                - Sample
+                - Targeting
+                - Sanitize
+                - Sorting
+                - Intercept Geometry
+                - Intercept Results
+                - Separate
+        - High Altitude Intercepts
+        - Low Altitude Intercepts
+        - Crew Coordination
+            - Radar
+            - Commentary
+                - Intercockpit
+                - Intraflight
+                - GCI/AWACS
+            - Visual Lookout
+    - End of Text Quiz
+    - Glossary
+
+- **AAM-3: A/A Mission Tasks**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - A/A Environment
+            - Preparation
+                - Physiological Preparation
+                    - Physical
+                    - Psychological
+                    - Pathological
+                - Systems Knowledge
+                - Crew Coordination
+            - Flight Tasks
+                - Beyond Visual Range Task
+                - BVR to Tally
+                - Merge
+                - Postmerge
+            - Low Altitude Environment
+                - Low-to-High Conversions
+                - High-to-Low Conversions
+                - Co-Altitude Intercepts
+                - Conversion Aborts
+        - Trail Departure
+            - Purpose
+            - Before Takeoff
+            - Takeoff
+            - Maintaining Trail
+            - Loss of Radar Contact
+        - Air Refueling
+            - Mission Preparation
+            - Ground Operations
+            - En Route
+            - Rendezvous Geometry
+                - Point Parallel
+                - Rendezvous Overrun
+                - Prerefueling Checks
+            - Postair Refueling
+            - After Landing
+    - End of Text Quiz
+    - Glossary
+
+- **AAM-4: Ground Controlled Intercepts (GCI)**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - GCI/AWACS Capabilities and Limitations
+            - GCI=s Mission
+            - GCI Procedures
+            - GCI/AWACS Comparison
+                - Manual Radars
+                - Automated Radars (SOCC/ROCC)
+                - AWACS
+        - Aircrew/Weapons Director Responsibilities
+            - Continuum of Control
+            - Close Control
+            - Tactical Control
+            - Broadcast Control
+            - Advisory Control
+            - Autonomous Control
+            - Control Considerations
+        - Operational Brevity Code
+        - Air-to-Air Training Rules
+            - Brief and Debrief Requirements
+            - Airspace
+            - Training Responsibilities
+            - Training Rules
+                - Separation of Aircraft
+                - Terminate Versus Knock-it-off
+        - Maneuvering Categories
+            - Unlimited
+            - Limited
+            - Restricted
+            - Nonmaneuvering
+    - End of Text Quiz
+    - Glossary
+    - Appendix G
+
+- **AAM-5: Offensive Basic Fighter Maneuvers (OBFM)**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Introduction
+        - BFM Mechanics and Definitions
+            - Roll
+            - Turn
+            - Acceleration
+            - Geometry
+                - Positional Geometry
+                    - Range
+                    - Aspect Angle
+                    - Angle Off (HCA)
+                - Attack Geometry
+                    - In-plane
+                    - Out-of-plane
+                - Weapon Employment Zone (WEZ)
+                - Turning Room/Turn Circle
+                    - Turning Room
+                    - Turn Circle
+                - Control Zone
+        - Offensive Maneuvers
+            - Lead Reposition Maneuver
+            - Lag Reposition Maneuver
+            - Quarter Plane
+        - Offensive BFM
+            - Objectives
+            - Offensive BFM Setups
+            - Long Range BFM
+                - Lead Pursuit Entry
+                - Pure Pursuit Entry
+                - Lag Pursuit Entry
+            - Short Range BFM
+            - Offensive BFM Errors
+            - Scissors
+                - Flat Scissors
+                - Rolling Scissors
+            - Separations
+            - Short Range Radar Employment
+                - Auto Guns Mode
+                - Boresight Mode
+                - Vertical Scan Mode
+                - Supersearch Mode
+    - End of Text Quiz
+    - Glossary
+
+- **AAM-6: Defensive Basic Fighter Maneuvers**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Introduction
+        - BFM Mechanics and Definitions
+            - Roll
+                - Lift Vector Placement 
+            - Turn
+                - Break turn
+                - Hard turn
+            - Acceleration
+            - Geometry
+                - Positional Geometry
+                    - Range
+                    - Aspect Angle
+                    - Angle Off 
+                - Attack Geometry
+                    - In-plane
+                    - Out-of-plane
+                - Weapon Employment Zone (WEZ)
+                - Turning Room/Turn Circle
+                    - Turning Room
+                    - Turn Circle
+                - Vertical Turning
+                - Control Zone
+        - Defensive BFM
+            - Initial Moves
+            - Visual References for Defensive BFM
+            - Analyzing the Fight
+            - Bandit at 9000 Feet
+            - Bandit at 6000 Feet
+                - Bandit with Insufficient Turn Rate
+                - Bandit with Superior Turn Rate
+            - Bandit at 3000 Feet
+            - Transition From the Defensive
+                - Overshoots
+                - Reversals
+            - Intercockpit Directive Defensive Commentary
+                - "Hard Left/Right"
+                - "Roll Left/Right"
+                - "Tighten Down"
+                - "Ease Off/Op Turn"
+                - "Break Left/Right/Up"
+                - "Reverse Left/Right"
+                - "Set Your Wings"
+                - "Pull"
+                - "Jink"
+                - "Extend"
+                - "Check (Degrees) Left/Right"
+                - "Pitchback Left/Right"
+                - "Sliceback Left/Right"
+                - "Pitch Left/Right to Slice"
+                - "Floor"
+                    - "Floor Transition"
+                    - "Floor Save"
+                    - "Floor Fight"
+            - Common DBFM Errors
+        - Conclusion
+    - End of Text Quiz
+    - Glossary
+
+- **AAM-7: 2 v X Intercepts**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Mission Planning
+            - Mission Planning Sources
+                - Air Tasking Order (ATO)
+                - Airspace Control Order (ACO)/Airspace Control Plan (ACP)
+                - Intelligence
+                - Weather
+            - Mission Planning Considerations
+                - Weather
+                - Terrain
+            - Available Assets
+            - Combat Air Patrol (CAP)
+            - Radar Setup
+                - PRE
+                - Scope Range
+                - Azimuth Selection
+                - Frame Store
+                - GMTR
+                - Acquisition Symbol Placement
+                - Altitude Search Selection
+                - Elevation Coverage — Bar Selection
+            - Air Force Mission Support System (AFMSS) and Mission Planning
+            Support System (MPSS)
+                - Communication Plan
+                - DTM List and Sequence Points
+                - IFF Phasing
+                - Aircrew and HUD Data
+                - Ordnance
+            - Crew Coordination
+                - Radar
+                - Targeting pod
+                - RWR
+                - CMD
+            - Visual Lookout
+            - Intercockpit Communication
+            - Contingency Planning
+                - Weather
+                - Package Fallout/Late
+            - Intercept Geometry/Tactics
+                - Launch and Leave
+                - Launch and Decide
+                    - CATA
+                    - Single-Side Offset
+                    - Bracket
+                    - Inside-Out
+                    - Hook-ID
+        - Intercept Basics
+            - Communication and Picture Building
+            - Calling the Picture and Labels
+                - Fundamentals
+                - Two Groups
+                    - Azimuth
+                    - Range
+                    - Echelon
+                - Three or More Groups
+                    - Wall
+                    - Ladder
+                    - Champagne
+                    - Vic
+            - Intercept Flow
+                - Search
+                - Sample
+                - AAT/EID/PID
+                    - BANDIT
+                    - Hostile
+                    - Positive Enemy Indications
+                        - Point of origin (POO)
+                        - NCTR
+                        - Mode X
+                    - Lack of Friendly Indication
+                        - PAINTS
+                        - SPADES
+                - Commit
+                - Aborted Commit
+                - Sanitize
+                - Target
+                - Meld
+                - Lock No Later Than (LNLT)/Sort
+                    - Side-Side (Azimuth)
+                    - Near-Far (Range)
+                    - High-Low (Altitude) 
+                - Shot
+                    - Crank Priorities
+                - Decision Range
+                - Abort Range
+                - Shot Depth
+                - Split
+                - Drop/Monitor
+            - ALL-ASPECT MISSILE DEFENSE (AAMD)
+                - Visual Arena
+            - INFRARED MISSILE DEFENSE (IRMD)
+            - Merge
+            - Egress/Separation
+            - SHORT-RANGE RADAR
+            - Short-Range Commits
+            - Defensive Response
+            - Contingencies 
+    - End of Text Quiz
+    - Glossary
+
+**AAW: Air-to-Air Weapons**
+
+- **AAW-1: A/A Programmable Armament Control Set (PACS)**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Introduction
+        - PACS Display
+            - Top Level PACS Menu
+        - MC/DTM
+        - MPCD Color Coding
+        - Weapons Controls
+            - Master Modes
+            - Armament Control Panel
+                - Selective Jettison Knob/Button
+                - Master Arm Switch
+            - Emergency Jettison Button
+            - Weapons Select Switch
+            - Weapons Release (Pickle) Button
+            - Trigger
+            - Armament Safety Switch
+            - Nuclear Consent Switch
+        - A/A PACS
+        - A/A Weapons Load Verification
+        - A/A Training Weapons Load Programming
+        - A/A Combat Weapon Load Monitoring
+        - A/A Weapons Control Options
+            - AIM-9L/M Legends
+            - AIM-7/AIM-120 Legends
+        - A/A Missile Stores Limitations
+        - A/A Jettison Procedures
+            - Emergency Jettison
+            - Programming Combat Jettison
+            - A/A Selective Jettison
+        - System Failures
+            - CC Failure
+            - PACS Failure
+            - Master Arm Switch Failure
+    - Glossary
+
+- **AAW-2: HUD Air-to-Air Displays**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - HUD Displays - A/A Master Mode
+            - A/A Master Mode Selection
+            - SNIFF (SNF) and VIS IDENT (VI)
+        - HUD Weapons Displays & Steering
+            - AIM-7
+            - AIM-120
+                - Visual
+                - Radar
+            - AIM-9M
+                - Visual (Radar in Search)
+                - Radar in Track
+                - Manual Boresight
+            - GUN - A/A Displays
+                - LCOS Search Funnel
+                - LCOS Track Funnel
+                - GDS
+                - GDS Funnel
+        - System Degrades
+            - CC Failure
+            - PACS Failure
+            - INS Failure
+            - MPDP Failure
+    - Glossary
+
+**ACG: Aircraft General**
+
+- **ACG-1: Aircraft Introduction & Cockpit Overview** 
+    - Administration
+        - Security
+        - Syllabus Flow
+        - F-15E Roles and Capabilities
+            - Configurations, Range, and Capabilities
+            - Design Philosophy
+    - F-15E Enhancements
+        - LANTIRN
+        - F100-PW-220 Engine
+        - Tactical Electronic Warfare System (TEWS)
+        - Inertial Navigation System (INS)
+        - APG-70 Radar A/G Functions
+            - High Resolution Map
+            - Real Beam Map
+            - Precision Velocity Update
+    - Missionized Cockpits
+    - Cockpit Familiarization
+        - Multipurpose Display Group
+            - MPD/MPCD
+        - Wide Field Of View Head-Up Display
+        - Upfront Control
+    - Glossary
+
+- **ACG-2: Propulsion System**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Introduction
+        - The Turbofan Engine
+            - Major Components
+                - Fan Section
+                - Compressor Section
+                - Combustion Section
+                - Turbine Section
+                - Afterburner Section
+                - Variable Nozzles
+            - F100-PW-229 Engine 
+        - Engine Associated Systems
+            - Engine Control System
+                - Throttles
+                - Digital Electronic Engine Control (DEEC)
+                - Main Fuel Control (MFC)
+            - Engine Monitoring System
+        - Engine Controls and Indicators
+            - Engine Control Switches
+            - Engine Master Switches
+            - Airframe-Mounted Fuel Shutoff Valve
+            - Vmax Switch
+            - Engine Monitor Display (EMD)
+        - Engine Oil System
+        - Secondary Power System
+            - Jet Fuel Starter (JFS)
+                - JFS Start
+            - Central Gear Box (CGB)
+            - Airframe Mounted Accessory Drives (AMADs)
+        - Fire Warning and Extinguishing System
+            - Pneumatically Operated Circuitry
+            - Fire Extinguisher Bottle
+            - Fire Lights
+            - Afterburner Burn-Through Lights
+            - Discharge/Test Switch
+                - OFF
+                - TEST
+                - DISCHARGE
+            - Fire Voice Warning
+        - Cautions and Warnings
+        - Air Induction System
+            - Ramps
+            - Air Inlet Controller (AIC)
+            - Inlet Ramp Switches
+                - AUTO
+                - EMERG
+        - Operating Limitations
+            - Engine Limitations
+            - Airspeed and Afterburner Operating Envelope
+            - Jet Fuel Starter (JFS)
+        - Normal Engine Start
+            - Before Start
+            - JFS Start
+            - Engine Start
+            - After Start
+        - Malfunctions
+            - Starting Emergencies
+                - JFS Ready Light Does Not Come On
+                - JFS Fails to Engage or Abnormal
+                Engagement/Disengagement
+                - Abnormal Engine Start
+                - Engine Fire During Start (with Fire Light
+                On and/or Voice Warning)
+                - AMAD Fire During Start
+            - Takeoff Emergencies
+                - Engine Failure on Takeoff
+                - Afterburner Failure
+                - Engine Fire on Takeoff
+            - In-Flight Emergencies
+                - Inlet Caution On
+                - Oil System Malfunction
+                - Engine Control Malfunction
+                - Engine Fails to Respond to Throttle
+                Commands
+                - Nozzle Failure
+                - AMAD Failure
+                - Double AMAD Failure
+                - AMAD Fire In Flight
+                - Engine Stall/Stagnation
+                - Restart
+                - Double Engine Stall/Stagnation/Failure
+                - JFS Assisted Restart
+                - Engine Fire In Flight
+                - Afterburner Burn-Through
+                - Single Engine Operation
+            - Landing Emergencies
+                - Single Engine Operation
+    - End of Text Quiz
+    - Glossary
+
+- **ACG-3: Fuel System**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Capabilities & Limitations
+            - Capabilities
+            - Limitations
+        - Capacities
+        - Description and Components
+            - External Tanks
+            - Conformal Fuel Tanks
+            - Transfer Tanks
+            - Transfer Pumps
+            - Fuel Lines
+            - Feed Tanks
+            - Boost Pumps
+            - Heat Exchangers
+        - System Operations
+            - Transfer System
+                - External Tanks
+                - Conformal Fuel Tanks
+                    - Internal Wing Tanks and Tank 1
+            - Engine Feed System
+            - Pressurization and Vent System
+        - Indicators
+            - Fuel Quantity Indicators
+        - Controls
+            - Fuel Control Panel
+            - External/Conformal Fuel Tank Control Switches
+            - External Transfer Switch
+            - Ground Transfer
+            - Dump Switch
+            - Slipway Switch
+            - Conformal Tank Emergency Transfer Switch
+        - Fuel Shutoff Valves
+        - Ground Refueling
+        - Air Refueling
+            - Rendezvous Geometry
+                - Point Parallel
+                - Rendezvous Overrun
+            - Prerefueling Checks
+        - Postair Refueling
+        - After Landing
+    - End of Text Quiz
+    - Glossary
+
+- **ACG-4: Electrical System**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Electrical System Components
+            - Circuit Breakers
+            - JFS Generator
+            - Emergency Generator
+            - AC Generators
+                - Current Limiters
+            - Generator Control Switch
+            - Generator Control Unit
+            - DC Power
+        - Additional Electrical System Topics
+            - External Power
+            - External Power Control Switch
+            - Ground Power Control Panel/Switches
+        - Aircraft Lighting System - Exterior Lights
+            - Landing/Taxi Lights
+            - Anticollision Lights
+            - Position Lights
+            - Formation Lights
+            - Vertical Tail Flood Lights
+            - Slipway Lights
+            - Air Refueling Receptacle Flood Light
+        - Aircraft Lighting System - Interior Lights
+            - Instrument Lighting
+            - Console Lighting
+            - UFC Lighting Knob
+            - Standby Compass Light
+            - Storm/Flood Lighting
+            - Chart Lights
+            - Display Lighting Switch
+            - Lights Test Switch
+            - Warning/Caution Lights Control Knob
+            - Utility Flood Light
+        - Emergency Operations
+            - Emergency Generator Operation/Failure
+                - System features
+            - Main Generator Failure
+                - System features
+                - Single Generator Failure
+                - Double Generator Failure
+                - Critical equipment and instruments
+            - Transformer Rectifier Failure
+            - Complete Electrical System Failure
+            - Smoke, Fumes, or Fire in the Cockpit
+                - Smoke, fumes, or fire in the cockpit indications
+                - Action for smoke, fumes, or fire in the cockpit
+            - AMAD Failure
+            - Double AMAD Failure 
+    - End of Text Quiz
+    - Glossary
+
+- **ACG-5: Environmental Control System, Canopy & Steps**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Environmental Control System (ECS)
+            - ECS Description
+            - ECS Controls
+                - Cabin Temperature Control Switch/Knob
+                - Air Source Knob
+            - Air Flow Selector Switch
+            - Air Vents
+            - Emergency Vent Handle
+        - Cockpit Pressurization System
+        - Associated Systems
+            - Windshield Anti-Fog Switch/System
+            - Windshield Anti-Ice Switch
+            - Engine Anti-Ice/Heat System
+            - Anti-G System
+        - Pitot Static System
+        - Oxygen Generating System
+            - Molecular Sieve Oxygen Generating System
+            (MSOGS)
+            - COMBAT EDGE System
+                - Pressure Breathing for G (PBG) Operation
+                - COMBAT EDGE Equipment
+                    - CSU-17/P Vest Assembly
+                    - CRU-94/P Integrated Terminal Block
+                    (ITB)
+                    - KMU-511/P Helmet Modification Kit
+                    - MBU-20/P Oxygen Mask Assembly
+        - Canopy System
+            - Components
+            - Controls
+                - Internal Canopy Control Handle
+                - External Canopy Control Handle
+            - Emergency Canopy System
+            - Canopy Care
+        - Boarding Steps
+    - End of Text Quiz
+    - Glossary
+
+- **ACG-6: Hydraulic Systems**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Hydraulic System Layout
+            - Power Control No. 1 (PC1)
+            - Power Control No. 2 (PC2)
+            - Utility System
+            - Power Sources
+        - Flight Control Hydraulics
+            - Reservoir Level Sensing
+            - Return Pressure Sensing (RPS) Switchover
+            Valves
+        - Hydraulic Indicators
+            - Cockpit Pressure Indicators
+        - Utility Subsystems
+            - Landing Gear
+            - Flaps
+            - Wheel Brakes
+            - Emergency Brakes
+            - Nose Gear Steering
+            - Speed Brake
+            - Arresting Hook
+        - Hydraulic System Malfunctions
+            - Caution Lights
+            - MPD/MPCD Caution Displays
+                - Single Circuit Failure of a PC System
+                - Total Failure of a PC System
+                - Single Utility Pump Failure
+                - Double Utility Pump Failure
+                - Utility A Circuit Failure
+                - Utility B Circuit Failure
+                - Combination Failures
+                    - UTL A and PC2 A Failure
+                    - UTL A and PC1 B Failure
+                    - UTL B and PC2 B Failure
+                    - Leak in Stabilator/Rudder Area
+                    - Compounded Emergencies
+            - Loss of Directional Control
+            - Loss of Brakes
+            - Antiskid Malfunctions
+            - Blown Tire During Takeoff
+            - Landing Gear Fails to Retract
+            - Speed Brake Failure
+            - Flap Malfunction
+            - Landing Gear Unsafe
+            - Landing Gear Emergency Extension
+            - Landing Gear Emergency Landing
+            - Blown Tire
+            - Approach-End Arrestment
+            - Departure-End Arrestment
+            - Hot Brakes
+    - End of Text Quiz
+    - Glossary
+
+- **ACG-7: Flight Controls**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Flight Control Surfaces
+        - Hydromechanical System
+            - Control Stick Boost Pitch Compensator
+            (CSBPC)
+                - Pitch and Roll Channel Assembly
+                    - Pitch Ratio Changer
+                    - Pitch Trim Compensator
+                    - Roll Ratio Changer
+                - Hydromechanical Aileron-Rudder Interconnect
+                (HM ARI)
+            - Rudder Pedal Travel Limiter
+        - Automatic Flight Control System (AFCS)
+            - Control Augmentation System (CAS)
+                - Pitch CAS
+                - Roll CAS
+                - Yaw CAS
+            - Circuit Breakers
+            - Autopilot
+        - Controls and Indicators
+            - Control Stick
+            - Rudder Pedals
+                - Rudder Pedal Adjust Knob
+            - CAS Control Panel
+                - CAS Switches
+                - TF Couple Switch
+                - Takeoff Trim Button and Light
+                - BIT Push Button
+            - Pitch Ratio Switch and Indicator
+            - Roll Ratio Switch
+            - Anti-Skid Switch
+            - Rudder Trim Switch
+            - Warning Tones
+                - Landing Gear AOA Tone
+                - High AOA Tone
+                - Departure Warning Tone
+            - Spin Recovery Display (SRD)
+        - Malfunction Indications
+            - Flight Control Caution Light
+            - MPD/MPCD Cautions
+            - AV BIT Caution Light
+            - AV BIT Functional Failure Summaries
+                - PCAS FIRST FAIL
+                - RCAS FIRST FAIL
+                - YCAS FIRST FAIL
+                - CASI SERVOLOOP
+                - SPIN RECOVERY
+                - R/C/P STICK
+                - CAS RUDDER PEDAL
+                - ONE RUDDER CAS
+                - CAS ARI
+                - ROLL LIMIT
+                - AOA FAIL
+                - NON HYDRAULIC BIT 
+        - Malfunction Actions
+            - General
+            - Pitch Ratio Failure
+            - Roll Ratio Failure
+            - Pitch CAS Failure with AFT CG
+            - Lateral Stick Limit Caution
+            - Trim
+            - Hydraulic Failure (UTL A/PC2 A)
+            - Rudder System Malfunctions
+            (Deflected Rudder Malfunctions)
+            - Rudder Limit Caution
+            - CAS Failure
+            - Combined Failures
+            - Controllability Check
+            - Anti-Skid Caution
+        - Survivability
+            - Electrical Loss
+            - Mechanical Loss
+            - Loss of Both PC Hydraulic Systems
+            - Mixed Hydraulic Losses
+        - Flight Control Ground Checks
+        - AFCS BIT
+    - Glossary
+
+- **ACG-8: Caution & Warning System Integration**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Introduction
+        - Warning Indications
+            - Warning Lights
+            - Voice Warnings
+            - Warning Tones
+                - AOA Warning Tone (with Landing Gear
+                Down)
+                - OWS Warning Tone
+                - High AOA Warning Tone (with Landing Gear
+                Up)
+                - Departure Warning Tone
+                - Landing Gear Warning Tone
+            - LANTIRN Bell
+        - Caution Indications
+            - Caution Lights
+                - MASTER CAUTION Light
+            - Caution Lights Panel
+                - Major Category Caution Lights
+                - Miscellaneous Caution Lights
+            - MPD/MPCD Caution Displays
+                - Normal Operation
+                - Caution Declutter
+                - IFF MODE 4 Display Caution
+            - Moving Cautions
+            - Emergency Operation Caution Display
+                - Central Computer (CC) Failure
+                - Dual Generator Failure
+            - Caution Tones
+        - Advisory Lights
+    - End of Text Quiz
+    - Glossary
+
+- **ACG-9: Emergency Procedures & Abnormal
+Operations**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Basic Rules and Philosophy
+        - Starting
+            - JFS Fails to Start
+            - JFS Fails to Engage
+            - JFS Engagement/Disengagement is
+            Abnormal
+            - Engine Fails to Start
+            - Engine Fails to Accelerate Normally
+            - Hot Starts
+            - Auto Acceleration
+            - AMAD or Engine Fire During Start
+        - Ground Operations
+            - ECS Caution
+            - Loss of Brakes
+        - Takeoff
+            - Abort
+            - Tire Failure During Takeoff
+            - External Stores Jettison
+            - Engine Fire on Takeoff
+        - In Flight
+            - Engine Fire In Flight
+            - Engine Fails to Respond to Throttle Commands
+            - Single Engine Stall/Stagnations
+            - Double Engine Stall/Stagnation/Failure
+            - Restarts
+            - Extreme Cockpit Temperatures
+            - Smoke And Fumes
+            - Fuel Transfer Failures
+                - Emergency Transfer
+                    - CFTs
+                    - Internal Wing Tanks
+                    - Tank 1
+                - Lateral Tank Imbalances
+                - Boost Pump Malfunctions
+                    - Single Boost Pump Failure
+                    - Double Boost Pump Failure
+                    - Total Boost Pump Failure
+            - In-Flight Canopy Loss
+            - Double Generator Failure
+            - Hydraulic Failures
+        - Landing 
+            - Landing Gear Emergency Extension
+            - Controllability Check
+            - Landing With Abnormal Gear Configuration
+            - Approach-End Arrestment
+            - Departure-End Arrestment
+            - Blown Tires
+            - Dive Recovery
+            - JFS Assisted Restart
+        - Glossary
+
+**AGR: Air-to-Ground Radar**
+
+- **AGR-1: A/Ground Radar Introduction**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Introduction
+        - Inherent Errors
+            - Beam Width Error (BWE)
+            - Pulse Length Error (PLE)
+            - Mechanized Resolution Versus Target Breakout
+        - Uncontrollable Factors
+            - Topographic Features
+                - Mountains
+                - Rolling or Flat Terrain
+            - Cultural Features
+                - Target Size
+                - Target Shape
+                - Target Composition
+                - Target Relationships
+            - Unusual Returns
+        - Controllable Factors
+            - Range
+            - Altitude
+            - Tilt
+            - Attack Axis
+            - Gain
+        - Principles of High Resolution Map (HRM) Radar
+            - Introduction
+            - Antenna Size
+            - Factors Affecting HRM Capability
+                - Azimuth
+                - Velocity
+                - Range
+                - Aircraft Speed
+                - Maneuvering Flight
+                - Graze Angle
+        - Radar Display Interpretation
+            - Preparation
+            - Prediction
+            - Interpretation/Technique
+        - Weather Detection
+            - Radar Display Presentation
+            - Operation
+            - Considerations
+                - Range
+                - Antenna Tilt
+                - Gain
+                - Other Techniques
+    - Glossary
+
+- **AGR-2: APG-70 A/G Introduction**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Radar Controls, Displays and Symbology
+            - Sensor Control Panel
+                - OFF
+                - STBY
+                - ON
+                - EMERG
+            - Multipurpose Display (MPD)
+            - Symbology
+            - Messages
+        - Air-to-Ground Radar Modes
+            - Real Beam Map (RBM)
+                - Cursor Function Select
+                    - MAP
+                    - UPDT
+                    - TGT
+                    - CUE
+                    - MARK
+                - Display Window Selected
+                - Antenna Azimuth Scan Select
+                - Interleaved Ground Moving Target
+                (IGMT) Mode
+                - Patch Map Timer
+                - Bull’s-eye
+                - Radar Range Select
+                - IPVU
+                - Sequence Point Indicator
+                - SNF
+                - Radar Frequency Select
+                - Antenna Elevation
+            - Ground Moving Target (GMT) Mode
+                - Dedicated GMT
+                    - EL Bar Selection
+                    - GMT Error Messages
+                    - Cursor Functions
+                    - Antenna Elevation
+                    - Antenna Azimuth Scan Select
+                    - Range
+                    - Freeze
+                    - GMT Range Coverage Circles and
+                    Asterisks
+                    - GMT Additional Target Indicators
+                - Interleaved Ground Moving Target
+                    - El Bar Scan
+                    - Freeze
+            - High Resolution Map (HRM) Mode
+                - DCL
+                - ML
+                - Display Brightness
+                - Radar Mode
+                - Cursor Function
+                - Display Window Size
+                - Antenna Elevation
+                - Antenna Azimuth Scan Select
+                - Patch Map Modes
+                    - Map Stabilizing Options
+                    - Antenna Azimuth Scan Select
+                    - Antenna Elevation
+                    - PPI
+                    - Recall Options
+                        - NEW
+                        - OLD
+                        - STO
+                        - EXPAND
+            - Precision Velocity Update (PVU) Mode
+                - Doppler Bias Select
+                - RST
+                - CLR
+                - MN
+                - INS
+                - IFA
+            - Beacon (BCN) Mode
+                - Cursor Function Select
+                - EL Bar Scan
+                - Antenna Elevation
+                - Freeze
+            - Air-to-Ground Ranging (AGR)
+    - Glossary
+
+- **AGR-3: Modes, Controls and Displays**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - A/G Radar Controls, Displays and Symbology
+            - Sensor Control Panel
+                - OFF
+                - STBY
+                - ON
+                - EMERG
+            - Multipurpose Display (MPD)
+            - Symbology
+            - Messages
+        - A/G Radar Hands On Controls
+            - Front Cockpit Control Stick
+            - Front Cockpit Throttles
+                - Coolie Switch
+                - TDC
+                - Boat Switch
+                - El Wheel
+                - Laser Fire Button
+            - Rear Cockpit Hand Controllers
+                - Castle Switch
+                - TDC
+                - Trigger
+                - Laser Fire Button
+                - Auto Acq Switch
+        - Procedures and Limits
+            - GMT/IGMT Mode
+                - Mapping
+            - Freeze
+                - Autofreeze
+                - Manual Freeze
+                    - Display Brightness Adjust (DBA)
+                    - NEW/OLD
+                    - Store (STO)
+                    - EXPAND
+                - Plan position indicator (PPI)
+            - Position Updating
+                - HAT Derivation
+                - RALT
+                - AGR
+            - Target Designation
+                - Pattern Steering Line (PSL)
+                - HAT Derivation
+            - Cueing
+            - Mark Point
+            - Set
+            - EMIS Limit
+        - Radar Navigation
+            - Preflight
+            - In-Flight Operation
+    - Glossary
+
+- **AGR-4: Navigation**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Programming and Checking Navigation Data
+            - Programming Data as UTMs
+            - Programming RNG/BRG and DIR/RNG Data
+            - Data Verification
+            - Last Minute Route/Timing
+            Changes—Programming the New Route
+            - Alternate Routes
+            - 0. Targeting 
+        - Use of UFC Data 2
+    - Glossary
+
+- **AGR-5: Sensor Planning**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Introduction
+        - High Resolution Map (HRM) Planning
+            - PVU Planning After TO 1F-15E-737
+            [Embedded Global Positioning
+            Inertial Navigation System (EGI)]
+        - Practical Problem
+        - A/G Radar Pacing
+        - Stick Maps
+        - Conclusion
+    - End of Text Quiz
+    - Glossary
+
+**AGW: Air-to-Ground Weapons**
+
+- **AGW-1: General Purpose Bombs**
+    - Administrative Information
+    - Criterion Referenced Objectives (CROs)
+    - Student Preparation Requirements
+    - Text
+        - Weapon Characteristics
+            - Bomb Effects
+                - Blast
+                - Fragmentation
+                - Cratering
+                - Armor Penetration
+                - Incendiary
+            - Bomb Types
+                - General Purpose Bombs
+                - Penetration Bombs
+                - Demolition Bombs
+                - Fragmentation Bombs
+                - Explosive Filler 
+        - Weapon Components
+            - Adapter Boosters
+            - Fin Assembly
+            - Charging Well
+            - External Arming Wires
         
